@@ -1,0 +1,12 @@
+title,Historical Fire Alerts in Madagascar
+dataset,viirs
+min_date,2000_01_01
+confidence,
+end_date,2023_10_03
+start_index,0
+end_index,613
+start_date_absolute,2012_01_02
+end_date_absolute,2023_10_02
+date_downloaded,2023-10-05
+metadata,https://api.resourcewatch.org/v1/gfw-metadata/widget_fire_alert_location
+link,https://www.globalforestwatch.org/dashboards/country/MDG/?location=WyJjb3VudHJ5IiwiTURHIl0%3D&map=eyJjYW5Cb3VuZCI6dHJ1ZX0%3D
