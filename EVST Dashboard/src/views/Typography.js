@@ -90,7 +90,6 @@ function Typography() {
     <p className="blockquote blockquote-primary text-white">
       Earth provides enough to satisfy every man's needs, but not every man's greed.
       <br />
-      <br />
       <small className="text-white">- Marlee Matlin</small>
     </p>
   </blockquote>
@@ -98,7 +97,7 @@ function Typography() {
   <p className="blockquote blockquote-primary" style={{ color: 'blue', margin: '0', display: 'flex', alignItems: 'center', width: '100%' }}>
     The Earth does not belong to us: we belong <br/>to the Earth.
     <a title="Original: Government of India Vector:  SKopp, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ashoka_Chakra.svg">
-      <img width="96" alt="Ashoka Chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/256px-Ashoka_Chakra.svg.png" style={{ marginLeft: '10px' }} />
+      <img width="96" alt="Ashoka Chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/256px-Ashoka_Chakra.svg.png" style={{ marginLeft: '10px', marginTop: '-20px', marginBottom: '-20px' }} />
     </a>
     <small style={{ color: 'blue', marginLeft: '5px' }}>- Mahatma Gandhi</small>
   </p>
@@ -106,7 +105,6 @@ function Typography() {
   <blockquote style={{ backgroundColor: '#008000', margin: '0' }}>
     <p className="blockquote blockquote-primary text-white">
       The greatest threat to our planet is the belief that someone else will save it.
-      <br />
       <br />
 
       <small className="text-white">- Robert Swan</small>
