@@ -15,7 +15,7 @@ function Tables() {
   return (
     <>
       <div className="content">
-        <Row>
+        {/* <Row>
           <Col md="12">
             <Card>
               <CardHeader>
@@ -143,7 +143,7 @@ function Tables() {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     </>
   );

@@ -285,7 +285,7 @@ function Map() {
   return (
     <>
       <div className="content">
-        <Row>
+        {/* <Row>
           <Col md="12">
             <Card className="card-plain">
               <CardHeader>Google Maps</CardHeader>
@@ -300,7 +300,7 @@ function Map() {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     </>
   );

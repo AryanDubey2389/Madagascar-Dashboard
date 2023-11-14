@@ -170,23 +170,14 @@ let chartExample1 = {
     gradientStroke.addColorStop(0, "rgba(29,140,248,0)"); //blue colors
 
     return {
-      labels: [
-        "JAN",
-        "FEB",
-        "MAR",
-        "APR",
-        "MAY",
-        "JUN",
-        "JUL",
-        "AUG",
-        "SEP",
-        "OCT",
-        "NOV",
-        "DEC",
-      ],
+      labels: ["1",	"2",	"3",	"4",	"5",	"6",	"7",	"8",	"9",	"10",	"11",	"12",	"13",	"14",	"15",
+      	"16",	"17",	"18",	"19",	"20",	"21",	"22",	"23",	"24",	"25",	"26",	"27",	"28",	"29",	"30",	"31",
+        	"32",	"33",	"34",	"36",	"37",	"38",	"39",	"40",	"41",	"42",	"43",	"44",	"45",	"46",	"47",
+           "48", "49", "50", "51", "52"],
+      
       datasets: [
         {
-          label: "My First dataset",
+          label: "Weekly Fire Alerts of 2022",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: "#1f8ef1",
@@ -200,7 +191,12 @@ let chartExample1 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+          data: [591,	489,	137,	1094,	589,	246,	232,	94,	111,	116,	61,	250,	298,	664,	1009,
+            752,	566,	1345,	2054,	3940,	3410,	5311,	3686,	4273,	6415,	7096,	8417,	7360,	6112,	1398,
+              0,	0,	0,	6518,	10723,	9673,	13026,	9921,	15883,	22738,	18571,	12122,	10953,
+                8778,	13890,	7527,	9365,	9210,	3997,	1727,	1719,	2158
+        ],
+          
         },
       ],
     };
@@ -222,10 +218,11 @@ let chartExample2 = {
     gradientStroke.addColorStop(0, "rgba(29,140,248,0)"); //blue colors
 
     return {
-      labels: ["JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
+      labels: ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      // labels: ["JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
       datasets: [
         {
-          label: "Data",
+          label: "In Numbers",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: "#1f8ef1",
@@ -239,7 +236,9 @@ let chartExample2 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [80, 100, 70, 80, 120, 80],
+          data: [329570,	404684,	342280,	336779,	419009,	335868,	360059,	324139,	387358,	321414,
+            	256621,	218387
+            ],
         },
       ],
     };
@@ -261,10 +260,10 @@ let chartExample3 = {
     gradientStroke.addColorStop(0, "rgba(119,52,169,0)"); //purple colors
 
     return {
-      labels: ["2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012"],
+      labels: ["Antsiranana", "Fianarantsoa", "Mahajanga", "Toamasina", "Toliary"],
       datasets: [
         {
-          label: "Yearly Fire Alerts",
+          label: "In Hectares",
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
@@ -272,8 +271,12 @@ let chartExample3 = {
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          data: [256621, 321414,	387358,	324139,	360059,	335868,	419009,	336779,
-            	342280,	404684,	329570],
+          data: [17664.92807,
+            26916.48255,
+            48711.75855,
+            33159.78588,
+            30659.27698
+            ],
         },
       ],
     };
@@ -337,10 +340,33 @@ const chartExample4 = {
     gradientStroke.addColorStop(0, "rgba(66,134,121,0)"); //green colors
 
     return {
-      labels: ["JUL", "AUG", "SEP", "OCT", "NOV"],
+      labels: [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2019",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+      ],
       datasets: [
         {
-          label: "Data",
+          label: "Loss of Trees Due to Forest Fires",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: "#00d6b4",
@@ -354,7 +380,29 @@ const chartExample4 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [90, 27, 60, 12, 80],
+          data: [2025.337708,
+            3907.775184,
+            2742.634309,
+            1813.771213,
+            3863.081728,
+            4729.026174,
+            6977.873319,
+            4019.967804,
+            5138.65995,
+            7886.608421,
+            5816.676031,
+            11153.41828,
+            14427.80845,
+            48899.43255,
+            15328.72655,
+            18799.94849,
+            36332.85357,
+            21259.74411,
+            23426.29394,
+            11844.30026,
+            18527.89954,
+            21367.50926,
+            ],
         },
       ],
     };

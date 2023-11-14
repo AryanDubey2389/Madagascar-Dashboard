@@ -3,7 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // react plugin used to create charts
 import { Line, Bar } from "react-chartjs-2";
-
+import {BsFillTreeFill} from "react-icons/bs"
 // reactstrap components
 import {
   Button,
@@ -100,7 +100,7 @@ function Dashboard(props) {
                         onClick={() => setBgChartData("data3")}
                       >
                         <span className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                          N-3
+                          Weekly Fire Alerts
                         </span>
                         <span className="d-block d-sm-none">
                           <i className="tim-icons icon-tap-02" />
@@ -127,7 +127,12 @@ function Dashboard(props) {
               <CardHeader>
                 <h5 className="card-category">Madagascar</h5>
                 <CardTitle tag="h3">
-                  <i className="tim-icons icon-email-85 text-info" /> Monthly Data
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-14h2v6h-2z" fill="red"/>
+</svg>
+                <i className="tim-icons text-primary" />{" "}
+                  Fire Alerts
+                  
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -145,12 +150,9 @@ function Dashboard(props) {
               <CardHeader>
                 <h5 className="card-category">Madagascar</h5>
                 <CardTitle tag="h3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path d="M12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-14h2v6h-2z" fill="red"/>
-</svg>
 
-                  <i className="tim-icons text-primary" />{" "}
-                  Fire Alerts
+                <BsFillTreeFill style={{ color: 'green' }} />
+<i className="tim-icons  text-info" /> Tree Cover Gain
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -168,7 +170,8 @@ function Dashboard(props) {
               <CardHeader>
                 <h5 className="card-category">Madagascar</h5>
                 <CardTitle tag="h3">
-                  <i className="tim-icons icon-email-85 text-success" /> Weekly Data
+                <BsFillTreeFill style={{ color: 'red' }} />
+                  <i className="BsFillTreeFill" style={{ color: 'green' }}></i> Loss of Trees
                 </CardTitle>
               </CardHeader>
               <CardBody>
