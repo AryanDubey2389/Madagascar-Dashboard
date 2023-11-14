@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Madagascar-Dashboard/static/css/main.20671599.css",
+    "main.js": "/Madagascar-Dashboard/static/js/main.6efaa65f.js",
+    "static/media/fa-solid-900.ttf": "/Madagascar-Dashboard/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/madagascar_map.png": "/Madagascar-Dashboard/static/media/madagascar_map.12de5f3cbe27ee789650.png",
+    "static/media/fa-brands-400.ttf": "/Madagascar-Dashboard/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Madagascar-Dashboard/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/new_logo.png": "/Madagascar-Dashboard/static/media/new_logo.0356123f5f5646d19d1c.png",
+    "static/media/fa-brands-400.woff2": "/Madagascar-Dashboard/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Madagascar-Dashboard/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/react-logo.png": "/Madagascar-Dashboard/static/media/react-logo.561f1671ed326d663356.png",
+    "static/media/anime3.png": "/Madagascar-Dashboard/static/media/anime3.4438e5067f2029f9e058.png",
+    "static/media/nucleo.eot": "/Madagascar-Dashboard/static/media/nucleo.bd5cce8bf40be5947637.eot",
+    "static/media/nucleo.ttf": "/Madagascar-Dashboard/static/media/nucleo.35b08447277ca7bf9f09.ttf",
+    "static/media/fa-regular-400.woff2": "/Madagascar-Dashboard/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/nucleo.woff": "/Madagascar-Dashboard/static/media/nucleo.5c65ef4d6434bb8062a3.woff",
+    "static/media/nucleo.woff2": "/Madagascar-Dashboard/static/media/nucleo.6dfb4833e3a0132fd1fc.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Madagascar-Dashboard/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Madagascar-Dashboard/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Madagascar-Dashboard/index.html",
+    "main.20671599.css.map": "/Madagascar-Dashboard/static/css/main.20671599.css.map",
+    "main.6efaa65f.js.map": "/Madagascar-Dashboard/static/js/main.6efaa65f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20671599.css",
+    "static/js/main.6efaa65f.js"
+  ]
+}
