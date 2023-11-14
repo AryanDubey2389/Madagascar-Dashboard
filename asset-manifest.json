@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Madagascar-Dashboard/static/css/main.20671599.css",
-    "main.js": "/Madagascar-Dashboard/static/js/main.28bd7ab0.js",
+    "main.js": "/Madagascar-Dashboard/static/js/main.6efaa65f.js",
     "static/media/fa-solid-900.ttf": "/Madagascar-Dashboard/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/madagascar_map.png": "/Madagascar-Dashboard/static/media/madagascar_map.12de5f3cbe27ee789650.png",
     "static/media/fa-brands-400.ttf": "/Madagascar-Dashboard/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/Madagascar-Dashboard/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/new_logo.png": "/Madagascar-Dashboard/static/media/new_logo.0356123f5f5646d19d1c.png",
@@ -19,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/Madagascar-Dashboard/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Madagascar-Dashboard/index.html",
     "main.20671599.css.map": "/Madagascar-Dashboard/static/css/main.20671599.css.map",
-    "main.28bd7ab0.js.map": "/Madagascar-Dashboard/static/js/main.28bd7ab0.js.map"
+    "main.6efaa65f.js.map": "/Madagascar-Dashboard/static/js/main.6efaa65f.js.map"
   },
   "entrypoints": [
     "static/css/main.20671599.css",
-    "static/js/main.28bd7ab0.js"
+    "static/js/main.6efaa65f.js"
   ]
 }
