@@ -22,7 +22,7 @@ function Typography() {
                 <div className="typography-line">
                   <span>Abstract</span>
                   <blockquote>
-                    <p className="blockquote blockquote-primary">
+                    <p className="blockquote blockquote-primary text-white">
                       This project rigorously examined Madagascar's pressing environmental issues such as deforestation. Addressing
                       the alarming impact of forest fires, the study proposed strategic preventive measures. It also delved into restoring tropical
                       agro systems and emphasized the crucial role of informed policy-making in saving forests.
@@ -38,7 +38,7 @@ function Typography() {
                 <div className="typography-line">
                   <span>References</span>
 
-                  <Link to="https://www.grida.no/resources/1336" className="text-muted block mt-2 mb-2">
+                  <Link to="https://www.grida.no/resources/1336" className="text-white block mt-2 mb-2">
                     Madagascar's Environmental Values and Challenges <HiExternalLink className="ml-3" />
 
                   </Link>
@@ -85,7 +85,7 @@ function Typography() {
                   </Link>
                 </div>
                 <div className="typography-line">
-  <span>Quotes</span>
+  <span>Quotes to be kept in mind</span>
   <blockquote style={{ backgroundColor: '#FF671F', margin: '0', width: '100%', marginBottom: '-18px' }}>
     <p className="blockquote blockquote-primary text-white">
       Earth provides enough to satisfy every man's needs, but not every man's greed.

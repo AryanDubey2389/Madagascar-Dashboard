@@ -117,7 +117,9 @@ function MapSelector() {
 
   return (
     <>
+    <h5 style={{marginLeft: '35%', marginTop: '3%', fontSize: '20px'}}>Note: Data here is taken from Global Forest Watch's official website</h5>
       <div className="content" style={{ overflow: 'hidden', position: 'relative' }}>
+        <label className="text-white">Choose the map:  </label>
         <select onChange={handleDropdownChange}>
           <option value="map1">Tree Cover</option>
           <option value="map2">Forest Change</option>
